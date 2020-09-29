@@ -1,0 +1,153 @@
+.header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    height: 5rem;
+}
+
+.instagram-logo {
+    margin-top: 0.35rem;
+    margin-left: 1.5rem;
+}
+
+.icon-container {
+    padding-left: 0.3rem;
+}
+
+.profile {
+    display: grid;
+    flex: 1;
+    grid-template-rows: 0.8fr 0.3fr 1fr 0.3fr;
+    width: 100%;
+    height: auto;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+    transform: scale(1.15);
+    object-fit: contain;
+    
+}
+
+.image-container {
+    width: 8rem;
+    height: 8rem;
+    margin: 0 auto;
+    border-radius: 7.5rem;
+    overflow: hidden;
+}
+
+
+.name, 
+.location{
+    text-align: center;
+}
+
+.name {
+    font-weight: 800;
+    letter-spacing: 0.2px;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+.location {
+    margin-top: 0.3rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #999;
+    letter-spacing: 0.2px;
+}
+
+.Img-section {
+    padding-top: 6rem;
+}
+
+.Numbers-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid #f4f4f4;
+    border-bottom: 2px solid #f4f4f4;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.num {
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+.num-text {
+    color: #999;
+    text-transform: uppercase;
+    margin-top: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.4px;
+}
+
+.Links-section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+.link:visited, 
+.link:active {
+    text-decoration: none;
+    color: #eee;
+}
+.link:hover, 
+.link:active {
+    text-decoration: none;
+    color:#eee;
+}
+
+.link-txt {
+    margin-left: 3rem;
+}
+
+
+.Button-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: #eee;
+    // width: 40%;
+    padding: 2rem 4rem;
+    // height: 80%;
+    border-radius: 10px;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+    // align-self: center;
+    // justify-self: center;
+}

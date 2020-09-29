@@ -1,11 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     background-color: #eee;
+    font-family: 'Lato';
 }
+
+html {
+    font-size: 62.5%;
+}
+
 .app-container {
     background-color: #fff;
     height: 90vh;
@@ -14,4 +23,6 @@ body {
     box-shadow: 0 1rem 3rem rgba(0,0,0,0.15);
     display: grid;
     grid-template-columns: 0.5fr 0.5fr 1fr;
+    border-radius: 10px;
+    overflow: hidden;
 }

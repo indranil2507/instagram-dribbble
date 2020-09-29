@@ -1,12 +1,12 @@
 import React from 'react';
 import "./App.scss";
-
+import MyProfile from "./MyProfile/MyProfile"
 
 function App() {
   return (
 
     <div className="app-container">
-        <p>My-Profile</p>
+        <MyProfile />
         <p>User-Visiting-Profile</p>
         <p>User-Visiting-Photos and Stories</p>
     </div>
