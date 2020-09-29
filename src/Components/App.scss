@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+}
+.app-container {
+    background-color: #fff;
+    height: 90vh;
+    width: 90vw;
+    margin: 5vh 5vw;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.15);
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 1fr;
+}
